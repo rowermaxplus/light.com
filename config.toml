@@ -1,0 +1,117 @@
+baseURL = "https://suspicious-kalam-89bb6a.netlify.app/"
+title = "Just So So"
+theme = "hugo-coder"
+languagecode = "zh-cn"
+defaultcontentlanguage = "zh-cn"
+
+[params]
+    author = "rower"
+    description = "rower's personal website"
+    # tou xiang
+    avatarurl = "images/rower.png"
+
+    twitter = "madawei2699"
+    github = "bmpi-dev"
+    telegram = "bmpi365"
+    zhihu = "improve365"
+
+    dateFormat = "2006-01-02"
+
+    since = 2019
+
+    rtl = false
+
+    colorScheme = "auto"
+
+    hideColorSchemeToggle = false
+# Series see also post count
+    maxSeeAlsoItems = 5
+# Custom CSS
+    customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+    customSCSS = []
+# Custom JS
+    customJS = []
+
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-2x fa-github"
+    weight = 1
+    url = "https://github.com/rowermaxplus"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1
+                url = "/about/"
+            [[languages.en.menu.main]]
+                name = "Self"
+                weight = 2
+                url  = "/self/"
+            [[languages.en.menu.main]]
+                name = "Dev"
+                weight = 3
+                url  = "/dev/"
+            [[languages.en.menu.main]]
+                name = "Money"
+                weight = 4
+                url  = "/money/"
+            [[languages.en.menu.main]]
+                name = "Project"
+                weight = 5
+                url  = "/project/"
+            [[languages.en.menu.main]]
+                name = "Goal"
+                weight = 6
+                url  = "/goal/"
+            [[languages.en.menu.main]]
+                name = "Twitter"
+                weight = 7
+                url  = "https://twitter.com/madawei2699"
+
+    [languages.zh-cn]
+        languagename = "Chinese"
+        title = "就这"
+
+        [languages.zh-cn.params]
+            author = "rower"
+            description = "通过学习（GTD、时间管理、知识管理、写作、财务管理）、技术创造（前端、后端、移动端、DevOps）、投资（指数投资、基金、股票、债券）、网赚项目（SEO、Affiliate、Media Buy、Niche、社交媒体）来建立被动收入"
+            keywords = "自我提升、时间管理、GTD、写作、摄影、笔记管理、知识管理、财务管理、全栈开发、指数投资、基金、股票、债券、SEO、Affiliate、Media Buy、Niche、社交媒体、被动收入、网赚"
+            # footercontent = "self/dev/money"
+
+        [languages.zh-cn.menu]
+            [[languages.zh-cn.menu.main]]
+                name = "Twitter"
+                weight = 1
+                url  = "https://twitter.com/madawei2699"
+            [[languages.zh-cn.menu.main]]
+                name = "关于"
+                weight = 2
+                url = "/about/"
+            [[languages.zh-cn.menu.main]]
+                name = "学习"
+                weight = 3
+                url  = "/self/"
+            [[languages.zh-cn.menu.main]]
+                name = "技术"
+                weight = 4
+                url  = "/dev/"
+            [[languages.zh-cn.menu.main]]
+                name = "投资"
+                weight = 5
+                url  = "/money/"
+            [[languages.zh-cn.menu.main]]
+                name = "个人项目"
+                weight = 6
+                url  = "/project/"
+            [[languages.zh-cn.menu.main]]
+                name = "长期目标"
+                weight = 7
+                url  = "/goal/"
