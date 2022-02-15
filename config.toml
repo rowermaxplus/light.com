@@ -10,11 +10,6 @@ defaultcontentlanguage = "zh-cn"
     # tou xiang
     avatarurl = "images/rower.png"
 
-    twitter = "madawei2699"
-    github = "bmpi-dev"
-    telegram = "bmpi365"
-    zhihu = "improve365"
-
     dateFormat = "2006-01-02"
 
     since = 2019
@@ -71,10 +66,6 @@ defaultcontentlanguage = "zh-cn"
                 name = "Goal"
                 weight = 6
                 url  = "/goal/"
-            [[languages.en.menu.main]]
-                name = "Twitter"
-                weight = 7
-                url  = "https://twitter.com/madawei2699"
 
     [languages.zh-cn]
         languagename = "Chinese"
@@ -87,10 +78,6 @@ defaultcontentlanguage = "zh-cn"
             # footercontent = "self/dev/money"
 
         [languages.zh-cn.menu]
-            [[languages.zh-cn.menu.main]]
-                name = "Twitter"
-                weight = 1
-                url  = "https://twitter.com/madawei2699"
             [[languages.zh-cn.menu.main]]
                 name = "关于"
                 weight = 2
