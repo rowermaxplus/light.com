@@ -1,10 +1,10 @@
-+++
-title = "关于本站"
-description = "关于本站"
-keywords = "关于本站"
-outputs = "html"
+---
+title: "关于本站"
+description: "关于本站"
+keywords: "关于本站"
+outputs: "html"
 
-+++
+---
 
 ```text
 终身学习 热爱编程
@@ -40,4 +40,3 @@ outputs = "html"
 更新about页面 (2022-02-16)
 网站创立 (2022-2-15)
 ```
-
