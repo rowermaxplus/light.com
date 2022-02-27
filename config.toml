@@ -19,7 +19,9 @@ defaultcontentlanguage = "zh-cn"
     colorScheme = "auto"
 
     hideColorSchemeToggle = false
-    googleAnalytics = "G-4JGM5EF4CN"
+    googleAnalyticsID  = "G-4JGM5EF4CN"
+
+    
 # Series see also post count
     maxSeeAlsoItems = 5
 # Custom CSS
