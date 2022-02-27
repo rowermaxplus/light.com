@@ -32,7 +32,7 @@ isCJKLanguage: true
 
 
 
-![image-20220227153144162](C:\Users\root\AppData\Roaming\Typora\typora-user-images\image-20220227153144162.png)
+![image-20220227153144162](../../../images/self/blog/image-20220227153144162.png)
 
 
 
@@ -84,11 +84,11 @@ layouts/partials/analytics-gtag.html
 
 推送到github,然后访问下自己的网站，查看
 
-![image-20220227153718116](C:\Users\root\AppData\Roaming\Typora\typora-user-images\image-20220227153718116.png)
+![image-20220227153718116](../../../images/self/blog/image-20220227153718116.png)
 
 
 
-参考：
+参考链接：
 
 https://gist.github.com/zjeaton/42246742cdaf2fb46400d04c2eba9a8a
 
