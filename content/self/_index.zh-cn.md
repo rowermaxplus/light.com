@@ -1,7 +1,7 @@
 ---
-title: "Self"
-date: 2022-02-27T16:11:44+08:00
-draft: false
+title: "终身学习及自我提升系列文章"
+keywords: ["自我提升", "时间管理", "笔记管理", "任务管理", "目标管理", "资产财务", "金钱", "知识笔记", "读书笔记", "终身学习"]
+description: "终身学习及自我提升系列文章，分享我关于时间管理、笔记管理、目标管理、财务管理、理财规划、写作、摄影、阅读、学习方法论等方面的个人经验"
 ---
-2022-2-27 [博客集成GoogleAnalytics](https://confident-boyd-78cf99.netlify.app/self/blog/blog-GoogleAnalytics/)
+
 
