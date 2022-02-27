@@ -4,6 +4,9 @@ theme = "hugo-coder"
 languagecode = "zh-cn"
 defaultcontentlanguage = "zh-cn"
 
+[taxonomies]
+  series = "series"
+
 [params]
     author = "rower"
     description = "rower's personal website"
