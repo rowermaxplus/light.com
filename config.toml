@@ -1,4 +1,4 @@
-baseURL = "https://confident-boyd-78cf99.netlify.app/"
+baseURL = "http://dantes.top/"
 title = "Just So So"
 theme = "hugo-coder"
 languagecode = "zh-cn"
@@ -53,13 +53,13 @@ defaultcontentlanguage = "zh-cn"
                 weight = 1
                 url = "/about/"
             [[languages.en.menu.main]]
-                name = "Self"
+                name = "Blog"
                 weight = 2
-                url  = "/self/"
+                url  = "/blog/"
             [[languages.en.menu.main]]
-                name = "Dev"
+                name = "program"
                 weight = 3
-                url  = "/dev/"
+                url  = "/program/"
             [[languages.en.menu.main]]
                 name = "Plan"
                 weight = 4
@@ -89,13 +89,13 @@ defaultcontentlanguage = "zh-cn"
                 weight = 2
                 url = "/about/"
             [[languages.zh-cn.menu.main]]
-                name = "学习"
+                name = "博客"
                 weight = 3
-                url  = "/self/"
+                url  = "/blog/"
             [[languages.zh-cn.menu.main]]
-                name = "技术"
+                name = "编程"
                 weight = 4
-                url  = "/dev/"
+                url  = "/program/"
             [[languages.zh-cn.menu.main]]
                 name = "计划"
                 weight = 5
