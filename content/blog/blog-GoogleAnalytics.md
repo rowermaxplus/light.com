@@ -3,7 +3,7 @@ title: "博客集成GoogleAnalytics"
 date: 2022-02-27
 draft: false
 aliases: [
-    "/zh-cn/blog/blog/blog-GoogleAnalytics/"
+    "/zh-cn/blog/blog-GoogleAnalytics/"
 ]
 
 keywords: ["博客", "GoogleAnalytics"]
