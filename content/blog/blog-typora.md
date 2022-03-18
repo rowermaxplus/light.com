@@ -45,7 +45,7 @@ isCJKLanguage: true
 
 
 
-![](/self/blog/03.png)
+![image-03](/self/blog/image-03.png)
 
 
 
