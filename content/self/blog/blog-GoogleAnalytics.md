@@ -16,17 +16,11 @@ isCJKLanguage: true
 
 
 
-这里需要修改主题，所以使用博客主题时，我使用git clone，然后删除.git
+这里两种方式：第一种直接修改主题，第二个在主题外面的layouts做出同样的修改
 
-另外一种使用git module的方式，没有研究过
+### 注册
 
-一、注册https://analytics.google.com/
-
-
-
-二、获得自己的googleAnalyticsID
-
-登录https://analytics.google.com/
+注册https://analytics.google.com/，获得自己的googleAnalyticsID，登录https://analytics.google.com/
 
 在管理网站页面可以查看，G-4xxxxxx
 
@@ -36,7 +30,7 @@ isCJKLanguage: true
 
 
 
-三、配置
+### 配置
 
 在config.toml
 
@@ -44,7 +38,9 @@ isCJKLanguage: true
 
 添加
 
-```
+
+
+```shell
 googleAnalyticsID = "G-00000XXXXX"
 ```
 
@@ -54,9 +50,7 @@ layouts/partials/analytics-gtag.html
 
 内容
 
-
-
-```
+```js
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.GoogleAnalyticsID }}"></script>
 <script>
@@ -70,11 +64,9 @@ layouts/partials/analytics-gtag.html
 
 在主题layouts/_default/baseof.html
 
-在<head>标签里面添加内容
+head标签里面添加内容
 
-
-
-```
+```go
 {{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
   {{ partial "analytics-gtag.html" . }}
   {{ end }}
