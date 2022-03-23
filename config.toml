@@ -23,7 +23,7 @@ defaultcontentlanguage = "zh-cn"
 
     hideColorSchemeToggle = false
     googleAnalyticsID  = "G-4JGM5EF4CN"
-
+    enableGitalk = true
     
 # Series see also post count
     maxSeeAlsoItems = 5
@@ -33,6 +33,11 @@ defaultcontentlanguage = "zh-cn"
     customSCSS = []
 # Custom JS
     customJS = []
+# Comments on github issue
+[params.utteranc]
+    repo = "rowermaxplus/light.com"
+    issue-term = "pathname"
+    theme = "github-light"
 
 
 # Social links
@@ -41,6 +46,8 @@ defaultcontentlanguage = "zh-cn"
     icon = "fa fa-2x fa-github"
     weight = 1
     url = "https://github.com/rowermaxplus"
+
+
 
 [languages]
     [languages.en]
