@@ -37,13 +37,6 @@
         {{ end }}
         {{ .Content }}
       </div>
-
-      {{ if not (eq .Params.enableGitalk "false") }}
-          <div id="comments">
-            {{ partial "gitalk.html" . }}
-          </div>
-      {{ end }}
-
       <footer>
         {{ partial "posts/series.html" . }}
         {{ partial "posts/disqus.html" . }}
